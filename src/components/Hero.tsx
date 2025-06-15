@@ -19,7 +19,7 @@ const Hero = () => {
           <div className="w-48 h-48 mx-auto rounded-full p-1 bg-gradient-to-r from-blue-400 via-emerald-400 to-violet-400">
             <div className="w-full h-full rounded-full bg-gray-800 flex items-center justify-center hover:scale-105 transition-transform duration-300">
               <img
-              src="src\components\images\IPL.png"
+              src="public\IPL.png"
               alt="Sai Jaswanth Vengala"
               className="w-44 h-44 rounded-full object-cover"
             />
