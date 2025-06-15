@@ -42,50 +42,61 @@ const SocialMedia = () => {
 
         {/* Special Portfolio Card */}
         <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-xl p-8 hover:scale-105 hover:border-emerald-400/50 hover:shadow-xl hover:shadow-emerald-400/20 transition-all duration-300 group">
-          <div className="flex flex-col md:flex-row items-center gap-6">
-            <div className="w-24 h-24 bg-gradient-to-r from-emerald-400 to-blue-400 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-              <ExternalLink className="w-10 h-10 text-white" />
-            </div>
-            <div className="flex-1 text-center md:text-left">
-              <h3 className="text-2xl font-bold text-gray-200 mb-2">Coding Profiles</h3>
-              <p className="text-gray-400 mb-4">
-                Check out my coding profiles on HackerRank, Leetcode, 
-              </p>
-              <a
-                href="https://example.com/portfolio"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-emerald-500 to-blue-500 text-white rounded-lg hover:from-emerald-600 hover:to-blue-600 transition-all duration-300"
-              >
-                View Portfolio
-                <ExternalLink className="ml-2 w-4 h-4" />
-              </a>
-            </div>
-          </div>
-        </div>
+  <div className="flex flex-col md:flex-row items-center gap-6">
+    <div className="w-24 h-24 bg-gradient-to-r from-emerald-400 to-blue-400 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+      <img
+        src="https://images.hdqwalls.com/download/code-syntax-dark-minimal-4k-mr-2048x2048.jpg"
+        alt="Coding Logo"
+        className="w-16 h-16 object-contain rounded-lg"
+        loading="lazy"
+      />
+    </div>
+    <div className="flex-1 text-center md:text-left">
+      <h3 className="text-2xl font-bold text-gray-200 mb-2">Coding Profiles</h3>
+      <p className="text-gray-400 mb-4">
+        Check out my coding profiles on HackerRank, Leetcode, Codechef, etc.
+      </p>
+      <a
+        href="https://example.com/portfolio"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-emerald-500 to-blue-500 text-white rounded-lg hover:from-emerald-600 hover:to-blue-600 transition-all duration-300"
+      >
+        View Portfolio
+        <ExternalLink className="ml-2 w-4 h-4" />
+      </a>
+    </div>
+  </div>
+</div>
 
-        <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-xl p-8 hover:scale-105 hover:border-emerald-400/50 hover:shadow-xl hover:shadow-emerald-400/20 transition-all duration-300 group">
-          <div className="flex flex-col md:flex-row items-center gap-6">
-            <div className="w-24 h-24 bg-gradient-to-r from-emerald-400 to-blue-400 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-              <ExternalLink className="w-10 h-10 text-white" />
-            </div>
-            <div className="flex-1 text-center md:text-left">
-              <h3 className="text-2xl font-bold text-gray-200 mb-2">Video Editing Portfolio</h3>
-              <p className="text-gray-400 mb-4">
-                Check out my creative video editing work and motion graphics projects
-              </p>
-              <a
-                href="https://example.com/portfolio"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-emerald-500 to-blue-500 text-white rounded-lg hover:from-emerald-600 hover:to-blue-600 transition-all duration-300"
-              >
-                View Portfolio
-                <ExternalLink className="ml-2 w-4 h-4" />
-              </a>
-            </div>
-          </div>
-        </div>
+         <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-xl p-8 hover:scale-105 hover:border-emerald-400/50 hover:shadow-xl hover:shadow-emerald-400/20 transition-all duration-300 group">
+  <div className="flex flex-col md:flex-row items-center gap-6">
+    <div className="w-24 h-24 bg-gradient-to-r from-emerald-400 to-blue-400 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+      <img
+        src="https://images.hdqwalls.com/download/code-syntax-dark-minimal-4k-mr-2048x2048.jpg"
+        alt="Coding Logo"
+        className="w-16 h-16 object-contain rounded-lg"
+        loading="lazy"
+      />
+    </div>
+    <div className="flex-1 text-center md:text-left">
+      <h3 className="text-2xl font-bold text-gray-200 mb-2">Coding Profiles</h3>
+      <p className="text-gray-400 mb-4">
+        Check out my coding profiles on HackerRank, Leetcode, 
+      </p>
+      <a
+        href="https://example.com/portfolio"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-emerald-500 to-blue-500 text-white rounded-lg hover:from-emerald-600 hover:to-blue-600 transition-all duration-300"
+      >
+        View Portfolio
+        <ExternalLink className="ml-2 w-4 h-4" />
+      </a>
+    </div>
+  </div>
+</div>
+
 
 
       </div>
