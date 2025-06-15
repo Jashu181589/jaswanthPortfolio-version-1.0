@@ -15,12 +15,38 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@jaswanthvengala" />
     <meta name="twitter:image" content="https://img.freepik.com/premium-vector/vector-j-letter-initial-gradient-colorful-logo_196200-1049.jpg" />
+    <style>
+      .navbar {
+        background: #222;
+        padding: 0.75rem 1.5rem;
+        display: flex;
+        align-items: center;
+      }
+      .navbar-logo {
+        height: 28px;
+        width: 28px;
+        border-radius: 6px;
+        object-fit: cover;
+        margin-right: 0.5rem;
+      }
+      .navbar-title {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #fff;
+      }
+    </style>
   </head>
 
   <body>
+    <nav class="navbar">
+      <img
+        src="https://img.freepik.com/premium-vector/vector-j-letter-initial-gradient-colorful-logo_196200-1049.jpg"
+        alt="Logo"
+        class="navbar-logo"
+      />
+      <span class="navbar-title">Jaswanth.dev</span>
+    </nav>
     <div id="root"></div>
     <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
     <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
     <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
