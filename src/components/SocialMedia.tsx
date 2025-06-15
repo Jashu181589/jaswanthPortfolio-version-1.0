@@ -4,12 +4,12 @@ import { Github, Linkedin, Twitter, Youtube, Instagram, Facebook, ExternalLink }
 
 const SocialMedia = () => {
   const socialPlatforms = [
-    { name: 'GitHub', icon: Github, url: 'https://github.com', followers: '2.5K' },
-    { name: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com', followers: '5.2K' },
-    { name: 'Twitter', icon: Twitter, url: 'https://twitter.com', followers: '1.8K' },
-    { name: 'YouTube', icon: Youtube, url: 'https://youtube.com', followers: '12.3K' },
-    { name: 'Instagram', icon: Instagram, url: 'https://instagram.com', followers: '3.1K' },
-    { name: 'Facebook', icon: Facebook, url: 'https://facebook.com', followers: '4.7K' },
+    { name: 'GitHub', icon: Github, url: 'https://github.com/jaswanth-aied', followers: 'Jaswanth-aied' },
+    { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/sai-jaswanth-vengala?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app', followers: 'Sai Jaswanth Vengala' },
+    { name: 'Twitter', icon: Twitter, url: 'https://twitter.com', followers: 'jaswanthvengala' },
+    { name: 'YouTube', icon: Youtube, url: 'https://youtube.com', followers: 'Jaswanth-archives' },
+    { name: 'Instagram', icon: Instagram, url: 'https://www.instagram.com/jashuuu_u?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==', followers: 'jashuuu_u' },
+    { name: 'Facebook', icon: Facebook, url: 'https://facebook.com', followers: 'Sai Jaswanth Vengala' },
   ];
 
   return (
@@ -47,6 +47,29 @@ const SocialMedia = () => {
               <ExternalLink className="w-10 h-10 text-white" />
             </div>
             <div className="flex-1 text-center md:text-left">
+              <h3 className="text-2xl font-bold text-gray-200 mb-2">Coding Profiles</h3>
+              <p className="text-gray-400 mb-4">
+                Check out my coding profiles on HackerRank, Leetcode, 
+              </p>
+              <a
+                href="https://example.com/portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-emerald-500 to-blue-500 text-white rounded-lg hover:from-emerald-600 hover:to-blue-600 transition-all duration-300"
+              >
+                View Portfolio
+                <ExternalLink className="ml-2 w-4 h-4" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-xl p-8 hover:scale-105 hover:border-emerald-400/50 hover:shadow-xl hover:shadow-emerald-400/20 transition-all duration-300 group">
+          <div className="flex flex-col md:flex-row items-center gap-6">
+            <div className="w-24 h-24 bg-gradient-to-r from-emerald-400 to-blue-400 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <ExternalLink className="w-10 h-10 text-white" />
+            </div>
+            <div className="flex-1 text-center md:text-left">
               <h3 className="text-2xl font-bold text-gray-200 mb-2">Video Editing Portfolio</h3>
               <p className="text-gray-400 mb-4">
                 Check out my creative video editing work and motion graphics projects
@@ -63,6 +86,8 @@ const SocialMedia = () => {
             </div>
           </div>
         </div>
+
+
       </div>
     </section>
   );
