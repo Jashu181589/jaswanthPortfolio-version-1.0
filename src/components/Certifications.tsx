@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from './ui/button';
 import { ChevronDown, ChevronUp, Award, Download, Eye, ExternalLink } from 'lucide-react';
@@ -7,51 +6,35 @@ const Certifications = () => {
   const [showAll, setShowAll] = useState(false);
 
   const certifications = [
-    {
-      title: "AWS Solutions Architect Associate",
-      description: "Comprehensive certification covering AWS cloud architecture, security, and best practices for designing distributed systems.",
-      issuer: "Amazon Web Services",
-      date: "December 2023",
-      verificationUrl: "https://aws.amazon.com/verification",
-      previewUrl: "https://example.com/cert-preview",
+     {
+      title: "React Frontend Developer",
+      description: "Comprehensive certification covering React fundamentals, state management, component architecture, and modern frontend development practices.",
+      issuer: "HackerRank",
+      date: "March 2025",
+      verificationUrl: "https://cloud.google.com/verification",
+      previewUrl: "https://github.com/Jashu181589/My-Portfolio/blob/main/Reach%20Frontend%20developer.png?raw=true",
       downloadUrl: "https://example.com/cert-download",
     },
     {
-      title: "Google Cloud Professional Developer",
-      description: "Advanced certification demonstrating expertise in developing applications on Google Cloud Platform using various services and APIs.",
-      issuer: "Google Cloud",
-      date: "October 2023",
+      title: "Cambridge LinguaSkill - B2 Level",
+      description: "The Cambridge Linguaskill B2 exam certifies upper-intermediate English proficiency for academic and professional purposes.",
+      issuer: "Cambridge University",
+      date: "May 2024",
+      verificationUrl: "https://results.linguaskill.com/",
+      previewUrl: "https://github.com/Jashu181589/My-Portfolio/blob/main/Linguskillss.png?raw=true",
+      downloadUrl: "https://drive.google.com/file/d/1m_1pK9t9wMuyKZrvM-56pP4sc65UO0ks/view?usp=sharing",
+    },
+    {
+      title: "Cisco Internship in Networking with Packet Tracer",
+      description: "Hands-on internship program focused on networking fundamentals, configuration, and troubleshooting using Cisco Packet Tracer.",
+      issuer: "Cisco Systems",
+      date: "June 2024",
       verificationUrl: "https://cloud.google.com/verification",
       previewUrl: "https://example.com/cert-preview",
       downloadUrl: "https://example.com/cert-download",
     },
-    {
-      title: "React Developer Certification",
-      description: "Professional certification validating advanced React.js skills including hooks, context, performance optimization, and testing.",
-      issuer: "Meta (Facebook)",
-      date: "August 2023",
-      verificationUrl: "https://developers.facebook.com/verification",
-      previewUrl: "https://example.com/cert-preview",
-      downloadUrl: "https://example.com/cert-download",
-    },
-    {
-      title: "UI/UX Design Professional",
-      description: "Comprehensive certification covering user experience design principles, prototyping, user research, and design thinking methodologies.",
-      issuer: "Adobe Certified Expert",
-      date: "June 2023",
-      verificationUrl: "https://adobe.com/verification",
-      previewUrl: "https://example.com/cert-preview",
-      downloadUrl: "https://example.com/cert-download",
-    },
-    {
-      title: "AWS Solutions Architect Associate",
-      description: "Comprehensive certification covering AWS cloud architecture, security, and best practices for designing distributed systems.",
-      issuer: "Amazon Web Services",
-      date: "December 2023",
-      verificationUrl: "https://aws.amazon.com/verification",
-      previewUrl: "https://example.com/cert-preview",
-      downloadUrl: "https://example.com/cert-download",
-    },
+   
+   
   ];
 
   const displayedCertifications = showAll ? certifications : certifications.slice(0, 2);
@@ -90,14 +73,14 @@ const Certifications = () => {
 
               <p className="text-gray-400 mb-6 leading-relaxed">{cert.description}</p>
 
-              {/* PDF Preview Placeholder */}
+              {/* Certificate Preview Image */}
               <div className="bg-gray-800 rounded-lg p-4 mb-6">
-                <div className="w-full h-32 bg-gray-700 rounded border-2 border-dashed border-gray-600 flex items-center justify-center">
-                  <div className="text-center">
-                    <Eye className="w-8 h-8 text-gray-500 mx-auto mb-2" />
-                    <span className="text-gray-500 text-sm">Certificate Preview</span>
-                  </div>
-                </div>
+                <img
+                  src={cert.previewUrl}
+                  alt={`${cert.title} Preview`}
+                  className="w-full h-48 object-cover rounded-lg border border-gray-700"
+                  loading="lazy"
+                />
               </div>
 
               <div className="flex flex-wrap gap-3">
