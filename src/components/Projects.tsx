@@ -10,8 +10,8 @@ const Projects = () => {
     {
       title: "Deep Leaf - AI Powered Plant Seedlings Identifier",
       description: "DeepLeaf is an AI-based system that classifies plant seedlings into 12 different species using a custom CNN.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
-      category: "Web Development",
+      image: "https://github.com/Jashu181589/My-Portfolio/blob/main/DEEPL%20-1%20P.png?raw=true",
+      category: "AI and Deep Learning",
       technologies: ["Python", "Machine-Learning", "Deep Learning", "Tensor-Flow", "OpenCV"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/example",
@@ -67,7 +67,7 @@ const Projects = () => {
 
   const getCategoryColor = (category: string) => {
     const colors = {
-      "Web Development": "bg-blue-500/20 text-blue-400 border-blue-500/30",
+      "AI and Deep Learning": "bg-blue-500/20 text-blue-400 border-blue-500/30",
       "AI/ML": "bg-emerald-500/20 text-emerald-400 border-emerald-500/30",
       "Mobile": "bg-violet-500/20 text-violet-400 border-violet-500/30",
       "Blockchain": "bg-orange-500/20 text-orange-400 border-orange-500/30",
