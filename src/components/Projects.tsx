@@ -13,8 +13,8 @@ const Projects = () => {
       image: "https://github.com/Jashu181589/My-Portfolio/blob/main/DEEPL%20-1%20P.png?raw=true",
       category: "AI and Deep Learning",
       technologies: ["Python", "Machine-Learning", "Deep Learning", "Tensor-Flow", "OpenCV"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example",
+      liveUrl: "https://github.com/jaswanth-aied/DeepLeaf-AI-Powered-Plant-Seedling-Classifier-Using-Optimized-CNNs.git",
+      githubUrl: "https://github.com/jaswanth-aied/DeepLeaf-AI-Powered-Plant-Seedling-Classifier-Using-Optimized-CNNs.git",
     },
     {
       title: "AI Video Editor",
