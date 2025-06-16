@@ -16,51 +16,9 @@ const Projects = () => {
       liveUrl: "https://github.com/jaswanth-aied/DeepLeaf-AI-Powered-Plant-Seedling-Classifier-Using-Optimized-CNNs.git",
       githubUrl: "https://github.com/jaswanth-aied/DeepLeaf-AI-Powered-Plant-Seedling-Classifier-Using-Optimized-CNNs.git",
     },
-    {
-      title: "AI Video Editor",
-      description: "Intelligent video editing application powered by machine learning algorithms for automatic scene detection and content optimization.",
-      image: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=500&h=300&fit=crop",
-      category: "AI/ML",
-      technologies: ["Python", "TensorFlow", "React", "FastAPI", "FFmpeg"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example",
-    },
-    {
-      title: "Mobile Fitness App",
-      description: "Cross-platform fitness tracking application with workout plans, progress monitoring, and social features.",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=300&fit=crop",
-      category: "Mobile",
-      technologies: ["React Native", "Firebase", "Redux", "Expo"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example",
-    },
-    {
-      title: "3D Portfolio Website",
-      description: "Interactive 3D portfolio website built with Three.js featuring immersive animations and WebGL effects.",
-      image: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=500&h=300&fit=crop",
-      category: "Web Development",
-      technologies: ["Three.js", "React", "WebGL", "GSAP"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example",
-    },
-    {
-      title: "Blockchain Voting System",
-      description: "Secure and transparent voting platform built on Ethereum blockchain with smart contracts for vote integrity.",
-      image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=500&h=300&fit=crop",
-      category: "Blockchain",
-      technologies: ["Solidity", "Web3.js", "React", "Ethereum"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example",
-    },
-    {
-      title: "Real-time Chat Application",
-      description: "Modern chat application with real-time messaging, file sharing, and video calls using WebRTC technology.",
-      image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=500&h=300&fit=crop",
-      category: "Web Development",
-      technologies: ["Socket.io", "React", "Node.js", "WebRTC"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example",
-    },
+    
+   
+    
   ];
 
   const displayedProjects = showAll ? projects : projects.slice(0, 4);

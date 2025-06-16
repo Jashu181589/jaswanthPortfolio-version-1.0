@@ -11,30 +11,24 @@ const Experience = () => {
       title: "Freelance AI-Driven Content Editor & Performance Marketer",
       company: "Self-Employed / Freelance Platforms (Fiverr & Upwork)",
       period: "2021 - Present",
-      description: "pecialized in editing high-impact content and managing performance-based advertising campaigns. Leveraged AI tools for content enhancement and analytics-driven decisions. Successfully optimized ad strategies across platforms, resulting in improved reach and conversion. Delivered creative assets and insights that scaled engagement for clients with audiences over 50K.",
+      description: "Specialized in editing high-impact content and managing performance-based advertising campaigns. Leveraged AI tools for content enhancement and analytics-driven decisions. Successfully optimized ad strategies across platforms, resulting in improved reach and conversion. Delivered creative assets and insights that scaled engagement for clients with audiences over 50K.",
       technologies: ["Photoshop", "GIMP", "Canva", "YouTube Analytics", "Google Ads"],
     },
     {
       title: "Junior Web Developer",
-      company: "StartUp Hub - KL University",
+      company: "Websico - KL University",
       period: "2023 - 2025",
       description: "Building and maintaining company websites using HTML, CSS, JavaScript, mainly dealing with React Vite, SpringBoot, Django. Worked closely with senior developers to learn best practices. Contributed to open-source projects and improved code quality standards.",
       technologies: ["HTML", "CSS", "JavaScript", "React Vite", "Tailwind and PostCSS", "Bootstrap and Django"],
     },
-    {
-      title: "Junior Web Developer",
-      company: "StartUp Hub - KL University",
-      period: "2023 - 2025",
-      description: "Building and maintaining company websites using HTML, CSS, and JavaScript. Worked closely with senior developers to learn best practices. Contributed to open-source projects and improved code quality standards.",
-      technologies: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP"],
-    },
-    {
-      title: "Web Development Intern",
-      company: "Creative Agency Pro",
-      period: "2018 - 2019",
-      description: "Assisted in the development of client websites and landing pages. Gained experience in responsive design and cross-browser compatibility. Participated in code reviews and agile development processes.",
-      technologies: ["HTML", "CSS", "JavaScript", "WordPress", "Photoshop"],
-    },
+   {
+  title: "Director of Designing and Promotions",
+  company: "Writers Voice - Vijayawada",
+  period: "2022 - 2024",
+  description: "Led the creative vision and promotional strategy for Writers Voice, a vibrant literary and public speaking community inspired by mini TEDx events. Orchestrated visually captivating campaigns, designed event branding, and elevated the club’s presence through innovative digital and print media. Fostered a culture of expression, storytelling, and impactful communication among aspiring writers and speakers.",
+  technologies: ["Adobe Creative Suite", "Canva", "Social Media Marketing", "Event Branding", "Public Speaking"],
+},
+    
   ];
 
   const displayedExperiences = showAll ? experiences : experiences.slice(0, 2);
