@@ -11,7 +11,7 @@ const Certifications = () => {
       description: "Comprehensive certification covering React fundamentals, state management, component architecture, and modern frontend development practices.",
       issuer: "HackerRank",
       date: "March 2025",
-      verificationUrl: "https://cloud.google.com/verification",
+      verificationUrl: "https://www.hackerrank.com/certificates/iframe/8a33e74ddd59",
       previewUrl: "https://github.com/Jashu181589/My-Portfolio/blob/main/Reach%20Frontend%20developer.png?raw=true",
       downloadUrl: "https://drive.google.com/file/d/1tEC3T046JOo62e958_W6QVWJaG3pUI_9/view?usp=sharing",
     },
@@ -29,9 +29,9 @@ const Certifications = () => {
       description: "Hands-on internship program focused on networking fundamentals, configuration, and troubleshooting using Cisco Packet Tracer.",
       issuer: "Cisco Systems",
       date: "June 2024",
-      verificationUrl: "https://cloud.google.com/verification",
-      previewUrl: "https://example.com/cert-preview",
-      downloadUrl: "https://example.com/cert-download",
+      verificationUrl: "https://www.linkedin.com/in/sai-jaswanth-vengala/details/certifications/",
+      previewUrl: "https://github.com/Jashu181589/My-Portfolio/blob/main/Cisco%20SS.png?raw=true",
+      downloadUrl: "https://drive.google.com/file/d/1wcj0umpRFrnmYZRnzoYfNQkpfepEU8Yv/view?usp=sharing",
     },
    
    
