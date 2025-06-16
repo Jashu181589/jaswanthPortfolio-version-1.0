@@ -13,7 +13,7 @@ const Certifications = () => {
       date: "March 2025",
       verificationUrl: "https://cloud.google.com/verification",
       previewUrl: "https://github.com/Jashu181589/My-Portfolio/blob/main/Reach%20Frontend%20developer.png?raw=true",
-      downloadUrl: "https://example.com/cert-download",
+      downloadUrl: "https://drive.google.com/file/d/1tEC3T046JOo62e958_W6QVWJaG3pUI_9/view?usp=sharing",
     },
     {
       title: "Cambridge LinguaSkill - B2 Level",
