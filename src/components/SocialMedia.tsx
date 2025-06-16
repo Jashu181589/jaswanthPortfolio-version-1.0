@@ -57,7 +57,7 @@ const SocialMedia = () => {
         Check out my coding profiles on HackerRank, Leetcode, Codechef, etc.
       </p>
       <a
-        href="https://example.com/portfolio"
+        href="https://www.stopstalk.com/user/profile/klu2300080076"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-emerald-500 to-blue-500 text-white rounded-lg hover:from-emerald-600 hover:to-blue-600 transition-all duration-300"
@@ -68,6 +68,8 @@ const SocialMedia = () => {
     </div>
   </div>
 </div>
+
+
 
          <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-xl p-8 hover:scale-105 hover:border-emerald-400/50 hover:shadow-xl hover:shadow-emerald-400/20 transition-all duration-300 group">
   <div className="flex flex-col md:flex-row items-center gap-6">
@@ -80,9 +82,9 @@ const SocialMedia = () => {
       />
     </div>
     <div className="flex-1 text-center md:text-left">
-      <h3 className="text-2xl font-bold text-gray-200 mb-2">Coding Profiles</h3>
+      <h3 className="text-2xl font-bold text-gray-200 mb-2">Professional Content Editing Portfolio</h3>
       <p className="text-gray-400 mb-4">
-        Check out my coding profiles on HackerRank, Leetcode, 
+        Check out my content editing portfolio showcasing my work on various platforms.
       </p>
       <a
         href="https://example.com/portfolio"
@@ -90,7 +92,7 @@ const SocialMedia = () => {
         rel="noopener noreferrer"
         className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-emerald-500 to-blue-500 text-white rounded-lg hover:from-emerald-600 hover:to-blue-600 transition-all duration-300"
       >
-        View Portfolio
+        View Content Editing Portfolio
         <ExternalLink className="ml-2 w-4 h-4" />
       </a>
     </div>
