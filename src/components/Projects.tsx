@@ -8,11 +8,11 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, shopping cart, and admin dashboard.",
+      title: "Deep Leaf - AI Powered Plant Seedlings Identifier",
+      description: "DeepLeaf is an AI-based system that classifies plant seedlings into 12 different species using a custom CNN.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
       category: "Web Development",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
+      technologies: ["Python", "Machine-Learning", "Deep Learning", "Tensor-Flow", "OpenCV"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/example",
     },
