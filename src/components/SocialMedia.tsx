@@ -75,14 +75,14 @@ const SocialMedia = () => {
   <div className="flex flex-col md:flex-row items-center gap-6">
     <div className="w-24 h-24 bg-gradient-to-r from-emerald-400 to-blue-400 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
       <img
-        src="https://images.hdqwalls.com/download/code-syntax-dark-minimal-4k-mr-2048x2048.jpg"
+        src="https://img.freepik.com/premium-vector/vector-j-letter-initial-gradient-colorful-logo_196200-1049.jpg"
         alt="Coding Logo"
         className="w-16 h-16 object-contain rounded-lg"
         loading="lazy"
       />
     </div>
     <div className="flex-1 text-center md:text-left">
-      <h3 className="text-2xl font-bold text-gray-200 mb-2">Professional Content Editing Portfolio</h3>
+      <h3 className="text-2xl font-bold text-gray-200 mb-2">Professional Content Editing Portfolio - Under Development</h3>
       <p className="text-gray-400 mb-4">
         Check out my content editing portfolio showcasing my work on various platforms.
       </p>
