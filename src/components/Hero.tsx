@@ -62,7 +62,7 @@ const Hero = () => {
     className="bg-gradient-to-r from-blue-500 to-emerald-500 hover:from-blue-600 hover:to-emerald-600 text-white px-8 py-3 text-lg font-semibold transition-all duration-300 hover:scale-105"
   >
     <a
-      href="/resume.pdf" // Place your resume.pdf in the public folder
+      href="https://drive.google.com/file/d/1EPRATgYf3tEoO5aD4DDNqzSqOl4ng-dF/view?usp=sharing" // Place your resume.pdf in the public folder
       download
       target="_blank"
       rel="noopener noreferrer"
