@@ -17,15 +17,15 @@ const Hero = () => {
         {/* Profile Photo */}
         
 <div className="mb-8 opacity-0 animate-fade-in" style={{ animationDelay: '200ms', animationFillMode: 'forwards' }}>
-  <div className="w-48 h-48 mx-auto rounded-full p-1 bg-gradient-to-r from-blue-400 via-emerald-400 to-violet-400">
-    <div className="w-full h-full rounded-full bg-gray-800 flex items-center justify-center hover:scale-105 transition-transform duration-300">
-      <img
-        src="https://github.com/Jashu181589/My-Portfolio/blob/main/IPL.png?raw=true" // <-- Use this if IPL.png is in your public folder
-        alt="Sai Jaswanth Vengala"
-        className="w-44 h-44 rounded-full object-cover"
-        style={{ marginTop: '0px' }} // <-- No overlap if section has top padding
-      />
-    </div>
+  <div className="relative w-48 h-48 mx-auto rounded-full hover:scale-105 transition-transform duration-300">
+    {/* Glowing ring border */}
+    <div className="absolute inset-0 rounded-full border-2 border-gray-400 shadow-lg shadow-gray-400/20 animate-pulse"></div>
+    {/* Profile image */}
+    <img
+      src="https://github.com/Jashu181589/My-Portfolio/blob/main/transparentdp.png?raw=true"
+      alt="Sai Jaswanth Vengala"
+      className="w-full h-full rounded-full object-cover"
+    />
   </div>
 </div>
 
