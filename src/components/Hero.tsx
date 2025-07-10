@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from './ui/button';
 import { Download, ArrowDown } from 'lucide-react';
@@ -15,20 +14,19 @@ const Hero = () => {
 
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Profile Photo */}
-        
-<div className="mb-8 opacity-0 animate-fade-in" style={{ animationDelay: '200ms', animationFillMode: 'forwards' }}>
-  <div className="relative w-48 h-48 mx-auto rounded-full hover:scale-105 transition-transform duration-300">
-    {/* Glowing ring border */}
-    <div className="absolute inset-0 rounded-full border-2 border-gray-400 shadow-lg shadow-gray-400/20 animate-pulse"></div>
-    {/* Profile image */}
-    <img
-      src="https://github.com/Jashu181589/My-Portfolio/blob/main/transparentdp.png?raw=true"
-      alt="Sai Jaswanth Vengala"
-      className="w-full h-full rounded-full object-cover"
-    />
-  </div>
-</div>
-
+        <div className="mb-8 opacity-0 animate-fade-in" style={{ animationDelay: '200ms', animationFillMode: 'forwards' }}>
+          <div className="relative w-48 h-48 mx-auto rounded-full hover:scale-105 transition-transform duration-300">
+            {/* Simple glowing ring border, no gradient */}
+            <div className="absolute inset-0 rounded-full border-4 border-blue-400 shadow-lg shadow-blue-400/30 animate-pulse pointer-events-none"></div>
+            {/* Profile image */}
+            <img
+              src="https://github.com/Jashu181589/My-Portfolio/blob/main/transparentdp.png?raw=true"
+              alt="Sai Jaswanth Vengala"
+              className="w-full h-full rounded-full object-cover absolute top-0 left-0 z-10"
+              style={{ background: 'transparent' }}
+            />
+          </div>
+        </div>
 
         {/* Title */}
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 opacity-0 animate-fade-in" style={{ animationDelay: '400ms', animationFillMode: 'forwards' }}>
