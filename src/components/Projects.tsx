@@ -17,6 +17,15 @@ const Projects = () => {
       githubUrl: "https://github.com/jaswanth-aied/DeepLeaf-AI-Powered-Plant-Seedling-Classifier-Using-Optimized-CNNs.git",
     },
     
+    {
+      title: "Personal Portfolio – Crafted for Full Creative Freedom",
+      description: "A fully custom portfolio built from scratch using React and Tailwind CSS — no templates used.Designed to reflect my personal style, with complete scalability and flexibility in mind.",
+      image: "https://github.com/Jashu181589/My-Portfolio/blob/main/Screenshot%202025-07-10%20120558.png?raw=true",
+      category: "Web Development",
+      technologies: ["React", "Tailwind CSS", "JavaScript"],
+      liveUrl: "https://portfoliojaswanthvengala.vercel.app/",
+      githubUrl: "https://www.linkedin.com/posts/sai-jaswanth-vengala_webdevelopment-reactjs-tailwindcss-activity-7348964134169833472-IZAq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFQKafkBjUISrc5oX6Vg0B2hSlyESwS6XMc",
+    },
    
     
   ];
