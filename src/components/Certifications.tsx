@@ -6,6 +6,16 @@ const Certifications = () => {
   const [showAll, setShowAll] = useState(false);
 
   const certifications = [
+    {
+      title: "Google AI&ML Virtual Intenship with AICTE",
+      description: "Comprehensive certification covering React fundamentals, state management, component architecture, and modern frontend development practices.",
+      issuer: "AICTE in collaboration with Google",
+      date: "JULY 2025",
+      verificationUrl: "https://drive.google.com/file/d/1CzgJ4cy2c76NuiWW77pmL1_B71GjmgJU/view?usp=sharing",
+      previewUrl: "https://github.com/Jashu181589/My-Portfolio/blob/main/G%20-%20AIML.png?raw=true",
+      downloadUrl: "https://drive.google.com/file/d/1CzgJ4cy2c76NuiWW77pmL1_B71GjmgJU/view?usp=sharing",
+    },
+    
      {
       title: "React Frontend Developer",
       description: "Comprehensive certification covering React fundamentals, state management, component architecture, and modern frontend development practices.",
